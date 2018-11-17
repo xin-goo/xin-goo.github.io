@@ -1,105 +1,315 @@
 <!DOCTYPE html>
-<html>
-<head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
+
+
 
   
-  <title>Install Hexo and Github Pages | Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Install Hexo on Github, using it’s Github Pages service. Updating Blog with git.My System is Linux mint 19 Tera, it base on Ubuntu Bionic.By the Default, Git is installed. Install Node.js123456789$ gi">
+
+
+<html class="theme-next muse use-motion" lang="">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="Install Hexo on Github, using it’s Github Pages service. Updating Blog with git.My System is Linux mint 19 Tera, it base on Ubuntu Bionic.By the Default, Git is installed. Install Node.js123456789$ gi">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Install Hexo and Github Pages">
 <meta property="og:url" content="http://xin-goo.github.io/2018/11/17/Install-Hexo-and-Github-Pages/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="Install Hexo on Github, using it’s Github Pages service. Updating Blog with git.My System is Linux mint 19 Tera, it base on Ubuntu Bionic.By the Default, Git is installed. Install Node.js123456789$ gi">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-17T01:56:23.489Z">
+<meta property="og:updated_time" content="2018-11-17T03:12:22.984Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Install Hexo and Github Pages">
 <meta name="twitter:description" content="Install Hexo on Github, using it’s Github Pages service. Updating Blog with git.My System is Linux mint 19 Tera, it base on Ubuntu Bionic.By the Default, Git is installed. Install Node.js123456789$ gi">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-</html>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://xin-goo.github.io"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-Install-Hexo-and-Github-Pages" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/11/17/Install-Hexo-and-Github-Pages/" class="article-date">
-  <time datetime="2018-11-17T00:58:35.000Z" itemprop="datePublished">2018-11-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Install Hexo and Github Pages
-    </h1>
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://xin-goo.github.io/2018/11/17/Install-Hexo-and-Github-Pages/">
+
+
+
+
+
+  <title>Install Hexo and Github Pages | Hexo</title>
   
 
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://xin-goo.github.io/2018/11/17/Install-Hexo-and-Github-Pages/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Install Hexo and Github Pages</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-17T08:58:35+08:00">
+                2018-11-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
       
         <p>Install Hexo on Github, using it’s Github Pages service. Updating Blog with git.<br>My System is Linux mint 19 Tera, it base on Ubuntu Bionic.<br>By the Default, Git is installed.</p>
 <h1 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js"></a>Install Node.js</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/creationix/nvm.git</span><br><span class="line">$ nvm/install.sh</span><br><span class="line">$ nvm install stable</span><br><span class="line">$</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># Check installing </span></span><br><span class="line">$ node -v </span><br><span class="line">$ npm -v</span><br></pre></td></tr></table></figure>
-<h1 id="Signed-in-Github"><a href="#Signed-in-Github" class="headerlink" title="Signed in Github"></a>Signed in Github</h1><h2 id="Signed-on-Github"><a href="#Signed-on-Github" class="headerlink" title="Signed on Github"></a>Signed on Github</h2><p>###注册账号<br>如果已经拥有账号，请跳过此步~<br>打开<a href="https://github.com/，在下图的框中，分别输入自己的用户名，邮箱，密码。" target="_blank" rel="noopener">https://github.com/，在下图的框中，分别输入自己的用户名，邮箱，密码。</a><br>Github注册<br>然后前往自己刚才填写的邮箱，点开Github发送给你的注册确认信，确认注册，结束注册流程。<br>一定要确认注册，否则无法使用gh-pages！</p>
-<p>###创建代码库<br>登陆之后，点击页面右上角的加号，选择New repository：<br>新建代码库<br>进入代码库创建页面：<br>在Repository name下填写<b>yourname.github.io</b>，Description (optional)下填写一些简单的描述（不写也没有关系），如图所示：</p>
-<p>###代码库设置<br>正确创建之后，你将会看到如下界面：<br>新代码库的界面</p>
-<p>###开启gh-pages功能<br>点击界面右侧的Settings，你将会打开这个库的setting页面，向下拖动，直到看见GitHub Pages，如图：<br>Github pages<br>点击Automatic page generator，Github将会自动替你创建出一个gh-pages的页面。 如果你的配置没有问题，那么大约15分钟之后，yourname.github.io这个网址就可以正常访问了~ 如果yourname.github.io已经可以正常访问了，那么Github一侧的配置已经全部结束了。</p>
+<h1 id="Signed-in-Github"><a href="#Signed-in-Github" class="headerlink" title="Signed in Github"></a>Signed in Github</h1><h2 id="Signed-on-Github"><a href="#Signed-on-Github" class="headerlink" title="Signed on Github"></a>Signed on Github</h2><h3 id="注册账号"><a href="#注册账号" class="headerlink" title="注册账号"></a>注册账号</h3><p>如果已经拥有账号，请跳过此步~<br>打开<a href="https://github.com/，在下图的框中，分别输入自己的用户名，邮箱，密码。" target="_blank" rel="noopener">https://github.com/，在下图的框中，分别输入自己的用户名，邮箱，密码。</a><br>Github注册<br>然后前往自己刚才填写的邮箱，点开Github发送给你的注册确认信，确认注册，结束注册流程。<br>一定要确认注册，否则无法使用gh-pages！</p>
+<h3 id="创建代码库"><a href="#创建代码库" class="headerlink" title="创建代码库"></a>创建代码库</h3><p>登陆之后，点击页面右上角的加号，选择New repository：<br>新建代码库<br>进入代码库创建页面：<br>在Repository name下填写<b>yourname.github.io</b>，Description (optional)下填写一些简单的描述（不写也没有关系），如图所示：</p>
+<h3 id="代码库设置"><a href="#代码库设置" class="headerlink" title="代码库设置"></a>代码库设置</h3><p>正确创建之后，你将会看到如下界面：<br>新代码库的界面</p>
+<h3 id="开启gh-pages功能"><a href="#开启gh-pages功能" class="headerlink" title="开启gh-pages功能"></a>开启gh-pages功能</h3><p>点击界面右侧的Settings，你将会打开这个库的setting页面，向下拖动，直到看见GitHub Pages，如图：<br>Github pages<br>点击Automatic page generator，Github将会自动替你创建出一个gh-pages的页面。 如果你的配置没有问题，那么大约15分钟之后，yourname.github.io这个网址就可以正常访问了~ 如果yourname.github.io已经可以正常访问了，那么Github一侧的配置已经全部结束了。</p>
 <h1 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli  -g</span><br><span class="line">$ npm install hexo --save</span><br><span class="line"><span class="comment">#check</span></span><br><span class="line">$ hexo -v</span><br></pre></td></tr></table></figure>
-<p>##初始化Hexo</p>
-<p>接着上面的操作，输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure></p>
-<p>###hexo初始化</p>
-<p>然后输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$npm</span> install</span><br></pre></td></tr></table></figure></p>
+<h2 id="初始化Hexo"><a href="#初始化Hexo" class="headerlink" title="初始化Hexo"></a>初始化Hexo</h2><p>接着上面的操作，输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure></p>
+<h3 id="hexo初始化"><a href="#hexo初始化" class="headerlink" title="hexo初始化"></a>hexo初始化</h3><p>然后输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$npm</span> install</span><br></pre></td></tr></table></figure></p>
 <p>之后npm将会自动安装你需要的组件，只需要等待npm操作即可。</p>
-<p>#首次体验Hexo</p>
-<p>继续操作，同样是在命令行中，输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> g</span><br></pre></td></tr></table></figure></p>
+<h1 id="首次体验Hexo"><a href="#首次体验Hexo" class="headerlink" title="首次体验Hexo"></a>首次体验Hexo</h1><p>继续操作，同样是在命令行中，输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> g</span><br></pre></td></tr></table></figure></p>
 <p>然后输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$hexo</span> s</span><br></pre></td></tr></table></figure></p>
 <p>然后会提示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure></p>
 <p>在浏览器中打开 <a href="http://localhost:4000/，你将会看到" target="_blank" rel="noopener">http://localhost:4000/，你将会看到</a> Hexo 界面</p>
@@ -128,105 +338,353 @@
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://xin-goo.github.io/2018/11/17/Install-Hexo-and-Github-Pages/" data-id="cjokvkzys000012st3vcgoyl3" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/11/16/first-blog-title/" rel="next" title="first blog title">
+                <i class="fa fa-chevron-left"></i> first blog title
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
       
       
     </footer>
   </div>
   
-    
-<nav id="article-nav">
   
   
-    <a href="/2018/11/16/first-blog-title/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">first blog title</div>
-    </a>
-  
-</nav>
+  </article>
 
-  
-</article>
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
 
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a></li></ul>
+    <div class="post-spread">
+      
     </div>
   </div>
 
 
+          </div>
+          
+
+
+          
+
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
+
+
+
+        </div>
         
-          <li>
-            <a href="/2018/11/17/Install-Hexo-and-Github-Pages/">Install Hexo and Github Pages</a>
-          </li>
-        
-          <li>
-            <a href="/2018/11/16/first-blog-title/">first blog title</a>
-          </li>
-        
-          <li>
-            <a href="/2018/11/16/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
-  
-</aside>
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">John Doe</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Install-Node-js"><span class="nav-number">1.</span> <span class="nav-text">Install Node.js</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Signed-in-Github"><span class="nav-number">2.</span> <span class="nav-text">Signed in Github</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Signed-on-Github"><span class="nav-number">2.1.</span> <span class="nav-text">Signed on Github</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#注册账号"><span class="nav-number">2.1.1.</span> <span class="nav-text">注册账号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建代码库"><span class="nav-number">2.1.2.</span> <span class="nav-text">创建代码库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#代码库设置"><span class="nav-number">2.1.3.</span> <span class="nav-text">代码库设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#开启gh-pages功能"><span class="nav-number">2.1.4.</span> <span class="nav-text">开启gh-pages功能</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Install-Hexo"><span class="nav-number">3.</span> <span class="nav-text">Install Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化Hexo"><span class="nav-number">3.1.</span> <span class="nav-text">初始化Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo初始化"><span class="nav-number">3.1.1.</span> <span class="nav-text">hexo初始化</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#首次体验Hexo"><span class="nav-number">4.</span> <span class="nav-text">首次体验Hexo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Extensions"><span class="nav-number">5.</span> <span class="nav-text">Extensions</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Plugins-http-hexo-io-plugins"><span class="nav-number">5.1.</span> <span class="nav-text">Plugins: http://hexo.io/plugins/</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Themes-http-hexo-io-themes"><span class="nav-number">5.2.</span> <span class="nav-text">Themes: http://hexo.io/themes/</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
         
       </div>
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2018 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-
+    
 
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
